@@ -10,8 +10,8 @@ const manrope = Manrope({
 });
 
 export const metadata: Metadata = {
-  title: "WebDenn",
-  description: "",
+  title: "Gupta-Store",
+  description: "gupta store is a website for selling vegetables online and offline",
 };
 
 export default function RootLayout({
