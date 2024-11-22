@@ -14,7 +14,7 @@ export default function Footer() {
         </div>
         <div className='flex flex-col max-w-32'>
             <span className='font-semibold pb-2'>Location</span>
-            <span className='text-xs'>PV26+928, near pahalwan&apos;s shop jammu, Gole Market, New Delhi</span>
+            <span className='text-xs'>PV26+928, near pahalwan&apos;s shop jammu, Gole Market, Jammu</span>
         </div>
         
     </div>
