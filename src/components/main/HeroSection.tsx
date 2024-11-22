@@ -46,7 +46,7 @@ export default function HeroSection() {
             alt='image' 
             />
         </div>
-        <div className='px-2 lg:justify-center lg:text-center lg:items-center w-full flex'>
+        <div className='hidden px-2 lg:justify-center lg:text-center lg:items-center w-full lg:flex'>
             <Image
             src={'/m3.png'}
             width={1000}
@@ -54,9 +54,41 @@ export default function HeroSection() {
             alt='image' 
             />
         </div>
-        <div className='px-2 lg:justify-center lg:text-center lg:items-center w-full flex'>
+        <div className='hidden px-2 lg:justify-center lg:text-center lg:items-center w-full lg:flex'>
             <Image
             src={'/m4.png'}
+            width={1000}
+            height={1000}
+            alt='image' 
+            />
+        </div>
+        <div className='lg:hidden px-2 lg:justify-center lg:text-center lg:items-center w-full flex'>
+            <Image
+            src={'/m10.png'}
+            width={1000}
+            height={1000}
+            alt='image' 
+            />
+        </div>
+        <div className='lg:hidden px-2 lg:justify-center lg:text-center lg:items-center w-full flex'>
+            <Image
+            src={'/m11.png'}
+            width={1000}
+            height={1000}
+            alt='image' 
+            />
+        </div>
+        <div className='lg:hidden px-2 lg:justify-center lg:text-center lg:items-center w-full flex'>
+            <Image
+            src={'/m8.png'}
+            width={1000}
+            height={1000}
+            alt='image' 
+            />
+        </div>
+        <div className='lg:hidden px-2 lg:justify-center lg:text-center lg:items-center w-full flex'>
+            <Image
+            src={'/m9.png'}
             width={1000}
             height={1000}
             alt='image' 
