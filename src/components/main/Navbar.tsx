@@ -1,6 +1,6 @@
 import React from 'react'
 import { MdKeyboardCommandKey } from "react-icons/md";
-import { MdMenu } from "react-icons/md";
+// import { MdMenu } from "react-icons/md";
 
 export default function Navbar() {
   return (
@@ -16,7 +16,7 @@ export default function Navbar() {
       </div>
 
       <div className='flex justify-center items-center gap-1'>
-        <span className='ml-3 block lg:hidden text-white focus:outline-none'><MdMenu size={22}/></span>
+        {/* <span className='ml-3 block lg:hidden text-white focus:outline-none'><MdMenu size={22}/></span> */}
         <SearchInput />
       </div>
     </nav>
