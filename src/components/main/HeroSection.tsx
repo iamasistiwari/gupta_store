@@ -38,17 +38,18 @@ export default function HeroSection() {
             alt='image' 
             />
         </div>
-        <div className='px-2 hidden lg:flex lg:justify-center lg:text-center lg:items-center w-full'>
+        <div className='px-2 hidden lg:flex lg:justify-center lg:text-center lg:items-center w-full m-4'>
             <Image
-            src={'/m2.png'}
-            width={1000}
-            height={1000}
-            alt='image' 
+            src={'/s1.png'}
+            width={900}
+            height={900}
+            alt='image'
+            className='' 
             />
         </div>
         <div className='hidden px-2 lg:justify-center lg:text-center lg:items-center w-full lg:flex'>
             <Image
-            src={'/m3.png'}
+            src={'/s2.png'}
             width={1000}
             height={1000}
             alt='image' 
